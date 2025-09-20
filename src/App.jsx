@@ -9,15 +9,8 @@ function App() {
   console.log("Componente App montado")
   return (
     <>
-      {/* <Card>
-        <div>
-          <h1>Título de esta card</h1>
-          <p>Card desde App.jsx(padre)</p>
-        </div>
-      </Card> */}
-      <NavBar />
-      <ItemListContainer message="Hola coder!" /> 
-      
+      {/* <NavBar /> */}
+      <ItemListContainer />      
     </>
   )
 }
