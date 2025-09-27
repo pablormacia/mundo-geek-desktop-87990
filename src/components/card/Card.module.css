@@ -1,0 +1,6 @@
+.container{
+    background-color: var(--color-grayLight);
+    box-shadow: inset;
+    width: 200px;
+    padding: 8px
+}

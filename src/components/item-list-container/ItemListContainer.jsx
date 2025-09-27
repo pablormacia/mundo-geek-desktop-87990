@@ -1,57 +1,18 @@
-import { useState, useEffect } from "react"
-import Card from "../card/Card"
+import { useGetCategories } from "../../hooks/useGetCategories"
+import CategoryItem from "../category-item/CategoryItem"
 
 const ItemListContainer = () => {
-    console.log("Componente ItemListContainer montado")
-    const [categories, setCategories] = useState([])
-    const [nuevosDatos, setNuevosDatos] = useState(false)
+    const { categories, loading } = useGetCategories()
+    console.log("Categories y loading desde hook: ", categories, loading)
 
-    console.log("Nuevos datos:", nuevosDatos)
-
-    const fetchCategories = () => {
-        const categoriesFromDB = [
-            {
-                id: 1,
-                name: "Consolas"
-            },
-            {
-                id: 2,
-                name: "Gadgets"
-            },
-            {
-                id: 3,
-                name: "comics"
-            }
-        ] //Esto es un mock
-
-        console.log("Trayendo las categorías de algún lugar lejano...")
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                resolve(categoriesFromDB)
-            }, 2000)
-        })
-    }
-
-    /*  fetchCategories()
-     .then()
-     .catch()
-     .finally() */
-
-    /* fetchCategories() // Esto se ejecuta indefinidamente, cuidado
-        .then(response => setCategories(response)) */
-
-
-    useEffect(() => {
-        fetchCategories()
-            .then(response => setCategories(response))
-    }, [nuevosDatos])
-
+    if (loading) return <p>Cargando...</p>
 
     return (
-        <div>
-            {categories?.map((category, index) => <Card key={index}>{category.name}</Card>)}
-            <button onClick={()=>setNuevosDatos(!nuevosDatos)}>Cargar nuevos datos (de mentira)</button>
-        </div>
+        <>
+            {
+                categories.map((category, index) => <CategoryItem key={index} category={category} />)
+            }
+        </>
     )
 }
 
