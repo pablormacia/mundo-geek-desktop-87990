@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import Card from './Card'
+import Card from "../card/Card"
 
 const ItemListContainer = () => {
     console.log("Componente ItemListContainer montado")

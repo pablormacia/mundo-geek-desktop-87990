@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+:root {
+    --color-black: #000000;
+    --color-grayDark: #5D5D5D;
+    --color-grayMedium: #B2B2B2;
+    --color-grayLight: #D9D9D9;
+    --color-whiteMedium: #F8F8F8;
+    --color-white: #ffffff;
+    --color-violetElectric: #8B5CF6;
+    --color-blueElectric: #3B82F6;
+    --color-magentaNeon: #EC4899;
+    --color-greenNeon: #22C55E;
+    --color-greenBright: #4ADE80;
+    --color-lilacLight: #C4B5FD;
+    --color-bluePastel: #93C5FD;
+    --color-pinkPastel: #F9A8D4;
+}
