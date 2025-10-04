@@ -14,7 +14,7 @@ export function useGetProducts(categoryId) {
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
                     resolve(filtered);
-                }, 2000);
+                }, 1000);
             });
         };
 
@@ -22,7 +22,7 @@ export function useGetProducts(categoryId) {
 
         getProductsByCategory()
             .then((response) => setProductsFilteredByCategory(response))
-            .catch(() => console.log("Error al obtener las categorías"))
+            .catch(() => console.log("Error al obtener los productos filtrados por categoría"))
             .finally(() => setLoading(false))
     }, [categoryId])
 

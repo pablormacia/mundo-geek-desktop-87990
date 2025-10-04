@@ -12,7 +12,7 @@ export function useGetCategories() {
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
                     resolve(local_categories);
-                }, 2000);
+                }, 1000);
             });
         };
 

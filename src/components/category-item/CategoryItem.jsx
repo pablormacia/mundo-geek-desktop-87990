@@ -1,11 +1,14 @@
 import Card from "../card/Card"
+import { Link } from "react-router-dom"
 
-const CategoryItem = ({category}) => {
+const CategoryItem = ({ category }) => {
   return (
-    <Card>
+    <Link to={`/products/${category.id}`}>
+      <Card>
         <img src={category.image} alt="Imagen de categoría" />
         <p>{category.title}</p>
-    </Card>
+      </Card>
+    </Link>
   )
 }
 
