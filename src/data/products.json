@@ -7,7 +7,7 @@
         "price": 1500000,
         "stock": 0,
         "brand": "Sony",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 0,
         "tags": ["new", "ofert"],
         "mainImage": "https://i.postimg.cc/wM7dDrvG/ps5.png"
@@ -20,7 +20,7 @@
         "price": 900000,
         "stock": 30,
         "brand": "Sony",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 5,
         "tags": ["popular", "classic","discounts"],
         "mainImage": "https://i.postimg.cc/mgmZ1KT7/ps4.png"
@@ -33,7 +33,7 @@
         "price": 500000,
         "stock": 40,
         "brand": "Sony",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 10,
         "tags": ["classic", "retro"],
         "mainImage": "https://i.postimg.cc/fRzTLMQw/ps3.png"
@@ -46,7 +46,7 @@
         "price": 200000,
         "stock": 10,
         "brand": "Sony",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 20,
         "tags": ["retro", "vintage"],
         "mainImage": "https://i.postimg.cc/sD9gsv86/ps2.png"
@@ -59,7 +59,7 @@
         "price": 150000,
         "stock": 5,
         "brand": "Sony",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 25,
         "tags": ["vintage", "collector"],
         "mainImage": "https://i.postimg.cc/XN5v12g0/ps1.png"
@@ -72,7 +72,7 @@
         "price": 180000,
         "stock": 15,
         "brand": "Microsoft",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 15,
         "tags": ["classic", "retro"],
         "mainImage": "https://i.postimg.cc/SKKsZkgZ/xbox1.png"
@@ -85,7 +85,7 @@
         "price": 400000,
         "stock": 20,
         "brand": "Microsoft",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 10,
         "tags": ["classic", "popular"],
         "mainImage": "https://i.postimg.cc/xTS1wKsN/xbox360.png"
@@ -98,7 +98,7 @@
         "price": 700000,
         "stock": 35,
         "brand": "Microsoft",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 5,
         "tags": ["modern", "new"],
         "mainImage": "https://i.postimg.cc/MH1KcTGG/xboxone.png"
@@ -111,7 +111,7 @@
         "price": 1300000,
         "stock": 18,
         "brand": "Microsoft",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 0,
         "tags": ["next-gen", "new"],
         "mainImage": "https://i.postimg.cc/ydgNHn4c/xboxx.png"
@@ -124,7 +124,7 @@
         "price": 300000,
         "stock": 25,
         "brand": "Nintendo",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 10,
         "tags": ["popular", "family"],
         "mainImage": "https://i.postimg.cc/FRMHscNq/wii.png"
@@ -137,7 +137,7 @@
         "price": 250000,
         "stock": 10,
         "brand": "Sony",
-        "category": "portátiles",
+        "categoryId": "portátiles",
         "discount": 5,
         "tags": ["portable", "classic"],
         "mainImage": "https://i.postimg.cc/ZqDq22gJ/psp.png"
@@ -150,7 +150,7 @@
         "price": 100000,
         "stock": 12,
         "brand": "Sega",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 30,
         "tags": ["retro", "collector"],
         "mainImage": "https://i.postimg.cc/g2sjqnHX/segagenesis.png"
@@ -163,7 +163,7 @@
         "price": 50000,
         "stock": 50,
         "brand": "Clónica",
-        "category": "consolas",
+        "categoryId": 2,
         "discount": 40,
         "tags": ["retro", "nostalgic"],
         "mainImage": "https://i.postimg.cc/g2mrZv8b/familygame.png"
@@ -176,7 +176,7 @@
         "price": 2000,
         "stock": 150,
         "brand": "Kingston",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 10,
         "tags": ["storage", "new"],
         "mainImage": "https://i.postimg.cc/gkvnjMwK/kingston64.png"
@@ -189,7 +189,7 @@
         "price": 450000,
         "stock": 20,
         "brand": "Orion",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 5,
         "tags": ["AR", "new"],
         "mainImage": "https://i.postimg.cc/N0VgpT9M/oriongafas.png"
@@ -202,7 +202,7 @@
         "price": 25000,
         "stock": 35,
         "brand": "Oral B",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 15,
         "tags": ["health", "smart"],
         "mainImage": "https://i.postimg.cc/Y0BtwHxB/Oralbgenius.png"
@@ -215,7 +215,7 @@
         "price": 85000,
         "stock": 40,
         "brand": "Fitbit",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 10,
         "tags": ["wearable", "fitness"],
         "mainImage": "https://i.postimg.cc/8kL1m71p/Fitbbit-Sense.png"
@@ -228,7 +228,7 @@
         "price": 95000,
         "stock": 18,
         "brand": "Theragun",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 5,
         "tags": ["massage", "wellness"],
         "mainImage": "https://i.postimg.cc/T1jfd4kL/Theragunmini.png"
@@ -241,7 +241,7 @@
         "price": 125000,
         "stock": 15,
         "brand": "Sony",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 8,
         "tags": ["VR", "gaming"],
         "mainImage": "https://i.postimg.cc/hGhDLMG6/cascorvps4.png"
@@ -254,7 +254,7 @@
         "price": 7000,
         "stock": 100,
         "brand": "Samsung",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 12,
         "tags": ["charger", "wireless"],
         "mainImage": "https://i.postimg.cc/wTK16KBv/cargadorinalambricosamsung.png"
@@ -267,7 +267,7 @@
         "price": 15000,
         "stock": 85,
         "brand": "Google",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 10,
         "tags": ["smart-home", "assistant"],
         "mainImage": "https://i.postimg.cc/v8x1F8bk/googlenestmini.png"
@@ -280,7 +280,7 @@
         "price": 95000,
         "stock": 30,
         "brand": "Sony",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 10,
         "tags": ["audio", "bluetooth"],
         "mainImage": "https://i.postimg.cc/vmP1Mc1F/sonyauriculares.png"
@@ -293,7 +293,7 @@
         "price": 110000,
         "stock": 12,
         "brand": "GoPro",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 7,
         "tags": ["action-camera", "adventure"],
         "mainImage": "https://i.postimg.cc/DZ8SznsW/goprohero9.png"
@@ -306,7 +306,7 @@
         "price": 3000,
         "stock": 45,
         "brand": "DC Comics",
-        "category": "comics",
+        "categoryId": 3,
         "discount": 5,
         "tags": ["superhero", "classic"],
         "mainImage": "https://i.postimg.cc/2yW34G0r/batmanthekillingjoke.png"
@@ -319,7 +319,7 @@
         "price": 3500,
         "stock": 35,
         "brand": "Marvel",
-        "category": "comics",
+        "categoryId": 3,
         "discount": 10,
         "tags": ["superhero", "multiverse"],
         "mainImage": "https://i.postimg.cc/HxRVcR46/spiderman.png"
@@ -332,7 +332,7 @@
         "price": 5000,
         "stock": 20,
         "brand": "DC Comics",
-        "category": "comics",
+        "categoryId": 3,
         "discount": 8,
         "tags": ["classic", "superhero"],
         "mainImage": "https://i.postimg.cc/wjpRkKKP/watchmen.png"
@@ -345,7 +345,7 @@
         "price": 2500,
         "stock": 50,
         "brand": "Image Comics",
-        "category": "comics",
+        "categoryId": 3,
         "discount": 12,
         "tags": ["sci-fi", "fantasy"],
         "mainImage": "https://i.postimg.cc/TP2yZr3J/sagavol1.png"
@@ -358,7 +358,7 @@
         "price": 2000,
         "stock": 150,
         "brand": "Kingston",
-        "category": "gadgets",
+        "categoryId": 1,
         "discount": 10,
         "tags": ["storage", "new"],
         "mainImage": "https://i.postimg.cc/02x9W9Qp/kingston32.png"
@@ -371,7 +371,7 @@
         "price": 5000,
         "stock": 100,
         "brand": "Funko",
-        "category": "coleccionables",
+        "categoryId": 4,
         "discount": 5,
         "tags": ["star-wars", "funko"],
         "mainImage": "https://i.postimg.cc/t4NZSrpg/darthvaderpop.png"
@@ -384,7 +384,7 @@
         "price": 20000,
         "stock": 30,
         "brand": "Marvel",
-        "category": "coleccionables",
+        "categoryId": 4,
         "discount": 10,
         "tags": ["marvel", "action-figure"],
         "mainImage": "https://i.postimg.cc/gkR6Rz78/ironman.png"
@@ -397,7 +397,7 @@
         "price": 45000,
         "stock": 10,
         "brand": "Weta Workshop",
-        "category": "coleccionables",
+        "categoryId": 4,
         "discount": 8,
         "tags": ["lotr", "figure"],
         "mainImage": "https://i.postimg.cc/DfSGvddC/gandalf.png"
@@ -410,7 +410,7 @@
         "price": 30000,
         "stock": 15,
         "brand": "HBO",
-        "category": "coleccionables",
+        "categoryId": 4,
         "discount": 15,
         "tags": ["got", "replica"],
         "mainImage": "https://i.postimg.cc/pV3FphsP/tronodehierro.png"
@@ -423,7 +423,7 @@
         "price": 100000,
         "stock": 5,
         "brand": "Harry Potter",
-        "category": "coleccionables",
+        "categoryId": 4,
         "discount": 20,
         "tags": ["harry-potter", "autograph"],
         "mainImage": "https://i.postimg.cc/L5g2csPT/harrypotter.png"
@@ -436,7 +436,7 @@
         "price": 200000,
         "stock": 50,
         "brand": "Intel",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 5,
         "tags": ["cpu", "high-performance"],
         "mainImage": "https://i.postimg.cc/RFDvptWh/corei9.png"
@@ -449,7 +449,7 @@
         "price": 35000,
         "stock": 25,
         "brand": "Asus",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 10,
         "tags": ["motherboard", "gaming"],
         "mainImage": "https://i.postimg.cc/FzYCGdS9/asusrog.png"
@@ -462,7 +462,7 @@
         "price": 250000,
         "stock": 15,
         "brand": "Nvidia",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 7,
         "tags": ["gpu", "gaming"],
         "mainImage": "https://i.postimg.cc/zBBJk7X4/geforcertx.png"
@@ -475,7 +475,7 @@
         "price": 5000,
         "stock": 80,
         "brand": "Arduino",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 15,
         "tags": ["arduino", "electronics"],
         "mainImage": "https://i.postimg.cc/cJTxY2ZQ/arduino1.png"
@@ -488,7 +488,7 @@
         "price": 20000,
         "stock": 40,
         "brand": "Arduino",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 10,
         "tags": ["robotics", "kit"],
         "mainImage": "https://i.postimg.cc/43X4YsCf/kitrobotica.png"
@@ -501,7 +501,7 @@
         "price": 15000,
         "stock": 70,
         "brand": "Corsair",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 12,
         "tags": ["ram", "ddr4"],
         "mainImage": "https://i.postimg.cc/fRcTWkrq/corsair.png"
@@ -514,7 +514,7 @@
         "price": 30000,
         "stock": 60,
         "brand": "Samsung",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 5,
         "tags": ["ssd", "storage"],
         "mainImage": "https://i.postimg.cc/ZKy5gwFS/samsungssd.png"
@@ -527,7 +527,7 @@
         "price": 80000,
         "stock": 20,
         "brand": "Creality",
-        "category": "hardware",
+        "categoryId": 5,
         "discount": 8,
         "tags": ["3d-printing", "creality"],
         "mainImage": "https://i.postimg.cc/13h3ZDJN/impresora3dcrealy.png"
@@ -540,7 +540,7 @@
         "price": 3500,
         "stock": 50,
         "brand": "TBBT",
-        "category": "ropa-y-accesorios",
+        "categoryId": 6,
         "discount": 10,
         "tags": ["tbbt", "sheldon"],
         "mainImage": "https://i.postimg.cc/FzwszSv8/bazinga.png"
@@ -553,7 +553,7 @@
         "price": 6000,
         "stock": 30,
         "brand": "Harry Potter",
-        "category": "ropa-y-accesorios",
+        "categoryId": 6,
         "discount": 15,
         "tags": ["harry-potter", "hogwarts"],
         "mainImage": "https://i.postimg.cc/jq1jZpfc/mochilaharrypotter.png"
@@ -566,7 +566,7 @@
         "price": 2500,
         "stock": 100,
         "brand": "Star Wars",
-        "category": "ropa-y-accesorios",
+        "categoryId": 6,
         "discount": 5,
         "tags": ["star-wars", "hat"],
         "mainImage": "https://i.postimg.cc/5yX2f3h8/gorrastarwars.png"
@@ -579,7 +579,7 @@
         "price": 12000,
         "stock": 40,
         "brand": "Fitbit",
-        "category": "ropa-y-accesorios",
+        "categoryId": 6,
         "discount": 10,
         "tags": ["fitbit", "fitness"],
         "mainImage": "https://i.postimg.cc/RFs0r8DM/fitbitcharge.png"
@@ -592,7 +592,7 @@
         "price": 5500,
         "stock": 50,
         "brand": "DC Comics",
-        "category": "ropa-y-accesorios",
+        "categoryId": 6,
         "discount": 8,
         "tags": ["flash", "dc-comics"],
         "mainImage": "https://i.postimg.cc/QMqtmVgK/remeratheflash.png"
@@ -605,7 +605,7 @@
         "price": 3000,
         "stock": 60,
         "brand": "DC Comics",
-        "category": "ropa-y-accesorios",
+        "categoryId": 6,
         "discount": 10,
         "tags": ["wonder-woman", "bag"],
         "mainImage": "https://i.postimg.cc/cJWCff3N/bolsowonderwoman.png"
@@ -618,7 +618,7 @@
         "price": 10000,
         "stock": 1000,
         "brand": "Lucasfilm",
-        "category": "eventos",
+        "categoryId": 7,
         "discount": 0,
         "tags": ["star-wars", "music"],
         "mainImage": "https://i.postimg.cc/4NrmNDNy/conciertostarwars.png"
@@ -631,9 +631,9 @@
         "price": 5000,
         "stock": 5000,
         "brand": "Comic-Con",
-        "category": "eventos",
+        "categoryId": 7,
         "discount": 10,
-        "tags": ["comics", "pop-culture"],
+        "tags": [3, "pop-culture"],
         "mainImage": "https://i.postimg.cc/RZKq3gNR/comiccon.png"
     },
     {
@@ -644,7 +644,7 @@
         "price": 3000,
         "stock": 2000,
         "brand": "Feria del Libro",
-        "category": "eventos",
+        "categoryId": 7,
         "discount": 5,
         "tags": ["literature", "books"],
         "mainImage": "https://i.postimg.cc/c4KvWxWP/feriadellibro.png"

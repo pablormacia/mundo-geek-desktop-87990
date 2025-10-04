@@ -1,17 +1,21 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/navbar/NavBar'
-import ItemListContainer from './components/item-list-container/ItemListContainer'
-import Card from './components/card/Card'
-import {useState} from "react"
+import ItemListContainer from './components/categories-list-container/CategoriesListContainer'
+import ProductsListContainer from './components/products-list-container/ProductsListContainer';
+import Home from './components/home/Home';
+
 
 function App() {
-  /* let counter = 0 */
-  console.log("Componente App montado")
   return (
-    <>
+    <BrowserRouter>
       <NavBar />
-      <ItemListContainer />   
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/categories" element={<ItemListContainer /> } />
+        <Route path="/products/:categoryId" element={<ProductsListContainer /> } />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

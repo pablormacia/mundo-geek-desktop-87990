@@ -1,9 +1,9 @@
 import { useGetCategories } from "../../hooks/useGetCategories"
 import CategoryItem from "../category-item/CategoryItem"
 
-const ItemListContainer = () => {
+const CategoriesListContainer = () => {
     const { categories, loading } = useGetCategories()
-    console.log("Categories y loading desde hook: ", categories, loading)
+    //console.log("Categories y loading desde hook: ", categories, loading)
 
     if (loading) return <p>Cargando...</p>
 
@@ -16,4 +16,4 @@ const ItemListContainer = () => {
     )
 }
 
-export default ItemListContainer
+export default CategoriesListContainer
